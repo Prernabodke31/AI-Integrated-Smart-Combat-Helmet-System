@@ -1,0 +1,27 @@
+# Helmet 360 System – Python dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core vision ──────────────────────────────────────────────
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+
+# ── YOLO (choose ONE – Ultralytics preferred) ────────────────
+ultralytics>=8.0.0       # YOLOv8n – installs torch automatically on Pi
+# torch>=2.0.0           # Uncomment for torch.hub YOLOv5 (larger install)
+
+# ── Sensors ──────────────────────────────────────────────────
+smbus2>=0.4.3
+pyserial>=3.5
+RPi.GPIO>=0.7.1
+
+# ── TTS ──────────────────────────────────────────────────────
+pyttsx3>=2.90
+
+
+# Smart Combat Helmet — Python Requirements
+# Install with: pip3 install -r requirements.txt
+
+twilio>=8.0.0
+smbus2>=0.4.3
+RPi.GPIO>=0.7.1
+pyserial>=3.5
